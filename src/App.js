@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blog from "./components/Blog";
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { useState, useEffect } from "react";
 
 
 
@@ -18,7 +19,7 @@ function App() {
  return (
  <div>
   <Router>
-    <Header/> 
+  <Header/>
         <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Gallery" element={<Gallery />} />

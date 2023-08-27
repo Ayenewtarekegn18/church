@@ -18,266 +18,6 @@
   width: 100%;
 }
 
-/* -------Home Page-------- */
-.Home {
-  background-image: url(./components/Pictures/Home/Home1.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 700px;
-  display: grid;
-  place-items: center;
-  position: relative;
-}
-
-.home-container {
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  z-index: 10;
-  font-size: larger;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.home-container h1 {
-  font-size: 5rem;
-}
-
-.overlay-1 {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.second-segment {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-
-  align-items: center;
-  overflow: hidden;
-  margin: 10%;
-  margin-top: 5%;
-}
-
-.section1,
-.section3 {
-  display: flex;
-  flex-direction: column;
-}
-.section3 {
-  margin-right: 5%;
-}
-.section2 {
-  text-align: center;
-  margin: 5%;
-}
-.section2 h2 {
-  color: #f44336;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.section2 h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-.section3 .box1{
-  animation: slide-left 2s ease-out;
-}
-
-.section1 .box1{
-  animation: slide-right 2s ease-out;
-}
-.section2 .aboutus h1{
-  animation: even 2s ease-in;
-}
-
-.section2 .aboutus h2 {
-  animation: even 2s ease-in;
-}
-
-.section2 .aboutus p{
-  animation: even 2s ease-in;
-}
-
-@keyframes even {
-  from {
-  
-    font-size: 0%;
-  } /* Start at initial font size */
-  to {
- 
-    font-size: 100%;
-  } /* Grow to bigger size */
-  
-}
-
-.s-img{
-  background-color:black;
-  height: 30rem;
-}
-
-.s-img img{
-  height: 100% !important;
-  width: 60%;
-
-}
-.s-img h3 {
-  margin-left: 80% ;
- 
-}
-
-.s-img p{
-margin-left: 80%;
-margin-bottom:10%;
-}
-.box1 {
-  border-radius: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin: 5%;
-  background-color: whitesmoke;
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  transition: 0.5s linear;
-}
-.box1 p {
-  text-align: center;
-}
-
-.box1 img {
-  width: 5dvw;
-  height: 10dvh;
-}
-
-.box1:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-.aboutus {
-  position: relative;
-  text-align: center;
-  border-radius: 10px;
-}
-.bigevents {
-  display: flex;
-  flex-direction: column;
-}
-.events-heading {
-  display: flex;
-  justify-content: center;
-  font-size: 32px; /* Set initial font size */
-  animation: events-animation 2s infinite alternate;
-}
-
-@keyframes events-animation {
-  from {
-    font-size: 32px;
-  } /* Start at initial font size */
-  to {
-    font-size: 52px;
-  } /* Grow to bigger size */
-  from {
-    color: #fff;
-  }
-  to {
-    color: #e48e16;
-  }
-}
-.events,
-.events2 {
-  display: flex;
-  flex-direction: row;
-  margin: 5%;
-  justify-content: space-between;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.events img,
-.events2 img {
-  width: 60dvw;
-  height: 60dvh;
-  border-radius: 10px;
-  float: left;
-}
-
-.events p{
-  margin-left: 8%;
-}
-.events2 p {
-  margin-right:  8%;
-}
-
-.events p span,.events2 p span {
-  font-size: calc(1.375rem + 1.5vw);
-  margin-left: 10%;
-  margin-bottom: 5%;
-  display: block;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-}
-
-@media (max-width: 700px) {
-  .second-segment {
-    flex-wrap: wrap;
-  }
-  .second-segment img {
-    height: 40%;
-    width: 40%;
-  }
-  .bigevents {
-    flex-direction: column;
-  }
-  .bigevents img {
-    height: 60%;
-    width: 60%;
-  }
-  .events {
-    flex-wrap: wrap;
-  }
-  .events2 {
-    flex-wrap: wrap-reverse;
-  }
-
-  @keyframes events-animation {
-    from {
-      font-size: 15px;
-    } /* Start at initial font size */
-    to {
-      font-size: 32px;
-    } /* Grow to bigger size */
-    from {
-      color: #fff;
-    }
-    to {
-      color: #e48e16;
-    }
-  }
-}@keyframes slide-right {
-  from {
-    transform: translateX(-300%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-@keyframes slide-left {
-  from {
-    transform: translateX(300%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-
 
 /* ------ Youth-Page ------ */
 .youth-container {
@@ -321,30 +61,30 @@ margin-bottom:10%;
 }
 
 .text h1 {
-  animation: slide-down 3s ease-out;
+  animation: slide-down 2s ease-out;
   font-size: 90px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  transition-duration: 3s;
+  transition-duration: 2s;
 }
 
 .text h2 {
-  animation: slide-right 2s ease-out;
+  animation: slide-right 1.5s ease-out;
   margin: 10px 0 40px;
   font-size: 45px;
   text-align: center;
 }
 
 .text h3 {
-  animation: slide-up 2s ease-out;
+  animation: slide-up 1.5s ease-out;
   margin: 10px 0 40px;
   font-size: 45px;
   text-align: center;
 }
 
 .text h4 {
-  animation: slide-left 2s ease-out;
+  animation: slide-left 1.5s ease-out;
   margin: 10px 0 40px;
   font-size: 45px;
   text-align: center;
@@ -427,6 +167,11 @@ margin-bottom:10%;
     width: 100%;
     background-size: 100%;
     font-size: 50%;
+  }
+  .youth-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   .text h1 {
@@ -570,71 +315,5 @@ margin-bottom:10%;
   }
 }
 
-.loader {
-  width: 10rem;
-  height: 10rem;
-  margin-left: 40%;
-  margin-top:10%;
-  margin-bottom: 100%;
-  position: relative;
-  align-items: center;
-  background: #f9f7f7;
-  border-radius: 4px;
-  overflow: hidden;
-}
 
-.loader:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 8rem;
-  height: 8rem;
-  transform: rotate(45deg) translate(30%, 40%);
-  background: #ff9371;
-  box-shadow: 32px -34px 0 5px #ff3d00;
-  animation: slide 2s infinite ease-in-out alternate;
-}
-
-.loader:after {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  background: #ff3d00;
-  transform: rotate(0deg);
-  transform-origin: 35px 145px;
-  animation: rotate 2s infinite ease-in-out;
-}
-
-@keyframes slide {
-  0% , 100% {
-    bottom: -35px
-  }
-
-  25% , 75% {
-    bottom: -2px
-  }
-
-  20% , 80% {
-    bottom: 2px
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(-15deg)
-  }
-
-  25% , 75% {
-    transform: rotate(0deg)
-  }
-
-  100% {
-    transform: rotate(25deg)
-  }
-}
   

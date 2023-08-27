@@ -59,7 +59,7 @@ body {
  }
 
 .podcast{
-  height: 400px;
+  margin-bottom: 20%;
 }
 h1 {
   margin-left: 10%;
@@ -214,7 +214,9 @@ h1 {
   
     .contain .wrapper,.body .wrapper2{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      gap: 5%;
+      padding-left:10%;
       justify-content: center;
      }
      .contain .wrapper2 .w-1,.container .wrapper .w-1 {

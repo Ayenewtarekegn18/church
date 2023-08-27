@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="rows">
             <div className="footer-col">
               <h4>Lebu Khc</h4>
-              <ul>
+              <ul style={{ padding: 0 }}>
                 <li>
                   <a href="#about">about us</a>
                 </li>
@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
             <div className="footer-col">
               <h4>Services</h4>
-              <ul>
+              <ul style={{ padding: 0 }}>
                 <li>
                   <p>Weekly Service Sunday morning 3:15-6:00</p>
                 </li>
