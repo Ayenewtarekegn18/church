@@ -1,8 +1,8 @@
 .Home {
-    background-image: url(./Pictures/Home/Home5.jpg);
+    background-image: url(./Pictures/Home/Home6.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 40rem;
     display: grid;
     place-items: center;
     position: relative;
@@ -104,6 +104,7 @@
     width: 60%;
   
   }
+
   .s-img h3 {
     margin-left: 80% ;
    
@@ -111,8 +112,10 @@
   
   .s-img p{
   margin-left: 80%;
-  margin-bottom:10%;
+  margin-bottom: 5%;
+  text-align: left;
   }
+  
   .box1 {
     border-radius: 10px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -228,16 +231,22 @@
     .events2 {
       flex-wrap: wrap-reverse;
     }
-    .s-img{
-      height: 70%;
-      width: 70%;
-    }
+
     .s-img p {
-      margin-bottom: 0%;
-      font-size: 50%;
+      margin-bottom: 5%;
+      font-size: 60%;
+      margin-left: 0%;
+      font-size: 100%;
+      align-items: center;
     }
     .s-img h3{
-      font-size: 50%;
+      margin-top: 0%;
+      margin-left: 0%;
+  
+    }
+    .s-img .img {
+      height: 200px !important;
+      width:100%
     }
   
     @keyframes events-animation {

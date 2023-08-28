@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { useState, useEffect } from "react";
-import images from "./Pictures/Home/Pic1.jpg";
 import image1 from "./Pictures/Home/community.png";
 import image2 from "./Pictures/Home/cross.png";
 import image3 from "./Pictures/Home/mission.png";
@@ -11,9 +10,9 @@ import image5 from "./Pictures/Home/camp.jpg";
 import image6 from "./Pictures/summer/add6.jpg";
 import image7 from "./Pictures/summer/add8.jpg";
 import image8 from "./Pictures/summer/add14.jpg";
-import test from "./Pictures/Home/test-1.jpg";
-import p2 from "./Pictures/Home/p2.png";
-import p3 from "./Pictures/Home/p3.png";
+import p1 from "./Pictures/Home/test-1.jpg";
+import p2 from "./Pictures/Home/test-2.jpg";
+import p3 from "./Pictures/Home/test-3.jpg";
 import Carousel from "react-bootstrap/Carousel";
 
 function Home() {
@@ -67,10 +66,8 @@ function Home() {
             <h2>About</h2>
             <h1>Our Church</h1>
             <p>
-              By the work of Jesus Christ on the cross we are saved through
-              faith. By the work of Jesus Christ on the cross we are saved
-              through faith. By the work of Jesus Christ on the cross we are
-              saved through faith.
+              We are an Evangelical church that is working towards promoting
+              christlikeness and spreading the good news to all nations.
             </p>
           </div>
         </div>
@@ -93,35 +90,40 @@ function Home() {
       <div>
         <Carousel>
           <Carousel.Item className="s-img">
-            <img src={image6} alt="Second slide" />
+            <img className="img" src={image6} alt="first slide" />
             <Carousel.Caption>
               <h3>Who we are</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit.
+                We are a branch of a bigger church called Ethiopian kalehiwot
+                church and that had played pivotal role in transforming the life
+                of people through sustainable evangelism in ethiopian in both
+                urban and rural areas of the country.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="s-img">
-            <img src={image7} alt="Second slide" />
+            <img className="img" src={image7} alt="Second slide" />
             <Carousel.Caption>
-              <h3>what we believe</h3>
+              <h3>What we believe</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit.
+                We believe in the inspired and infallible authority of the
+                Bible. There is one God in three persons: Father, Son, and Holy
+                Spirit. Jesus Christ is divine, born of a virgin, lived
+                sinlessly, performed miracles, died for our sins, rose again,
+                and will return in glory
               </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="s-img">
-            <img src={image8} alt="Second slide" />
+            <img className="img" src={image8} alt="Third slide" />
             <Carousel.Caption>
-              <h3>where we are headed</h3>
+              <h3>Where we are headed</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit.
+                We exist to serve God through proclaiming the Good News of Jesus
+                Christ to the peoples so that people may have eternal life and
+                become Christ’s disciples, and be fulfilled spiritually,
+                mentally, and physically so that they become salt and light to
+                the world for the glory of God.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -156,15 +158,8 @@ function Home() {
             <div className="row">
               <div className="col">
                 <div className="testimonial">
-                  <img src={test} alt="" />
+                  <img src={p1} alt="" />
                   <div className="name">Ayenew Tarekegn</div>
-                  <div className="stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                  </div>
 
                   <p>
                     Joining LKHC Youth has been an incredible journey of
@@ -184,14 +179,7 @@ function Home() {
               <div className="col">
                 <div className="testimonial">
                   <img src={p2} alt="" />
-                  <div className="name">Full name</div>
-                  <div className="stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="far fa-star"></i>
-                    <i className="far fa-star"></i>
-                  </div>
+                  <div className="name">Abu Tesfaye</div>
 
                   <p>
                     Finding Jesus in the community of LKHC Youth has been a
@@ -208,7 +196,7 @@ function Home() {
               <div className="col">
                 <div className="testimonial">
                   <img src={p3} alt="" />
-                  <div className="name">Full name</div>
+                  <div className="name">Nebyat Robel</div>
                   <div className="stars">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>

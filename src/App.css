@@ -245,7 +245,9 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-
+.kids{
+  margin-top: 7%;
+}
 .kids img,
 .spiritual img,
 .counseling img {
@@ -272,13 +274,20 @@
     flex-direction: block; /* arrange flex items horizontally */
     justify-content: center;
   }
-
+  .kids{
+    margin-top: 20%;
+  }
   .kids img,
   .spiritual img,
   .counseling img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+  }
+
+  .mainimg {
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .ministry-info {
     display: flex;
