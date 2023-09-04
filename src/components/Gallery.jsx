@@ -9,6 +9,12 @@ import "./Gallery.css";
 import { Link } from "react-router-dom";
 
 function Gallery() {
+  const [isContentVisible, setContentVisible] = useState(false);
+
+  const handleToggleContent = () => {
+    setContentVisible(!isContentVisible);
+  };
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

@@ -111,6 +111,11 @@ ul{
 	display: flex;
 	flex-direction: column;
 } 
+.footer-col .social-links{
+	display: flex;
+	flex-direction: row;
+
+}
 }
 @media(max-width: 300px){
   .footer-col{
@@ -119,6 +124,7 @@ ul{
 .footer{
 	width: 100%;
 }
+
 }
 
 

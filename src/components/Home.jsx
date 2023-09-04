@@ -133,7 +133,7 @@ function Home() {
       <div className="bigevents">
         <h1 className="events-heading">Upcoming Events</h1>
         <div className="events">
-          <img src={image5} alt="Image" />
+          <img className="image" src={image5} alt="Image" />
 
           <p>
             <span>Youth Camp</span>

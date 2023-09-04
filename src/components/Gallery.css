@@ -255,7 +255,6 @@ h1 {
       flex-direction: row;
       gap: 3%;
       justify-content: center;
-      height: 50%;
      }
      .contain .wrapper2 .w-1,.container .wrapper .w-1 {
       display: flex;
